@@ -1,0 +1,2460 @@
+body{
+    background: #fff;
+}
+.header-top{
+    background: #000;
+    padding: 0.8rem 2.5rem;
+
+    display: flex;
+}
+.container{
+    display: flex;
+}
+.right2{
+    float: right;
+    margin-left: 68%;
+}
+
+.container a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+.tamplate-image{
+    margin: 3rem 3rem;
+}
+.payment{
+    display: flex;
+}
+.active:hover{
+    background: #fff;
+}
+ol, ul {
+    padding-left: 0.1rem;
+}
+.num{
+    padding-left: 0.8rem;
+}
+.num a{
+    font-size: 0.8rem;
+}
+
+.header{
+    display: flex;
+    background: #000;
+    padding: 0rem 1rem;
+    padding-right: 0px;
+}
+.about{
+    display: flex;
+}
+.logo{
+    padding-left: 0.8rem;
+}
+.box-1{
+    padding: 1rem 1rem;
+    padding-left: 2rem;
+}
+.box1{
+    display: flex;
+    margin-left: 2rem;
+
+}
+.box1 a{
+    font-size: 1rem;
+}
+.sea button{
+    border:none;
+    background: #fff;
+    border:2px solid #fff;
+    border: 1px solid wheat;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    border-right: none;
+    padding: 0.2rem 0.4rem;
+   /* margin:0.5rem 0rem;*/
+}
+.sea button a{
+    color:#000;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.sea input{
+    padding: 0.5rem 0.3rem;
+    border: 1px solid wheat;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    border-left: none;
+    width: 30rem;
+
+}
+.search .btn{
+    background: rgb(194, 62, 62);
+    padding: 0.5rem 1.5rem;
+    border:none;
+}
+.search .btn a{
+    color:#fff;
+}
+.search{
+    margin-left: 0.3rem;
+
+}
+.tag img{
+    width: 4rem;
+}
+.box1 {
+    margin:0rem 0rem;
+    margin-left: 2rem;
+}
+.sea .box1{
+    margin: 0rem 0rem;
+}
+.navigation{
+    background: #000;
+    padding: 0rem 2.5rem;
+}
+.nav-item{
+    margin: 0rem 2.5rem;
+}
+.nav-item .dropdown-item{
+     color: rgb(49, 47, 47);
+ }
+  .nav-item a{
+    color: white;
+    text-decoration: none;
+}
+#navbarDropdown:hover, .nav-item a:hover{
+    color: rgb(199, 71, 71);
+}
+.carousel-inner{
+    cursor: pointer;
+}
+.box-3 img{
+   
+    width:100%;
+}
+.box-4{
+    border-top: 1px solid rgb(223, 217, 217);
+    border-bottom: 1px solid rgb(235, 230, 230);
+    padding-bottom: 3rem ;
+    box-shadow: 0 0 5px 2px #ccc;
+
+
+}
+
+.box-4 button{
+    border: none;
+    height:4rem;
+    margin: 0 0.5rem;
+}
+.box-4 button i{
+    color: #BE202E;
+    
+}
+
+.topic ol{
+    margin: 0rem 1rem;
+}
+.topic ol img{
+    margin: 0rem 8rem;
+}
+.topic .top a{
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.topic a{
+    text-decoration: none;
+}
+
+#demo{
+    font-weight:600;
+    font-size: 1.5rem;
+}
+.para a:hover{
+color: #000;
+}
+.foot a:hover{
+    color: #BE202E;
+}
+.foot1 a:hover{
+    color: #fff;
+}
+.shop a{
+    color:#BE202E;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.shop a:hover{
+    color:#BE202E;
+}
+.topic ol span {
+    color: #000;
+    background: rgb(80, 108, 197);
+    font-size: 1.2rem;
+}
+.box4{
+    display: block;
+    margin: 0rem 0.5rem;
+    padding: 0.2rem -0.8rem;
+    overflow: hidden;
+    /*border: 1px solid rgb(177, 169, 169);*/
+    width: 18rem;
+}
+.box4 img{
+    width: 12rem;
+
+}
+.box-5{
+    overflow: hidden;
+    display: flex;
+}
+a{
+    text-decoration:none ;
+}
+.payment1{
+    display: flex;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.topic .shop2{
+margin-left: 50%;
+}
+.topic .shop2 a{
+    color: #BE202E;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.box-1 .btn{
+    background-color: #BE202E;
+    color: #fff;
+    padding: 0rem 2rem;
+    border: none;
+}
+.child{
+    width: 25%;
+    display: none;
+}
+.card-group .card {
+    
+    display: none;
+}
+.child img{
+    width: 100%;
+}
+.chhild{
+    width:15%;
+    margin: 0 5px;
+    display: none;
+}
+.leftarrow , .rightarrow{
+    margin-left: 12px;
+    display: inline-block;
+}
+.leftarrow button, .rightarrow button{
+    font-weight: bold;
+    font-size: 15px;
+}
+.box5 {
+    display: inline;
+    padding: 0.8rem 1rem;
+    background-color: rgba(161, 154, 154, 0.3);
+    margin: 3rem 0px;
+    padding-bottom: 0px;
+    margin-left: -3rem;
+    padding-left: 1rem;
+    border-radius: 2rem;
+}
+.box5 i{
+    color: black;
+    font-size: 23px;
+    margin: 6px 0px;
+}
+.parent .col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 23%;
+}
+.parent .container{
+    overflow: wrap;
+}
+ .child a:hover{
+    color: rgb(109, 100, 100);
+
+}
+.box5 ol{
+     margin: 11px 0px;
+    margin-left: 0rem;
+}
+.parent .container a{
+    color: rgb(109, 100, 100);
+}
+.oldprice a{
+    font-size: 14px;
+    color: rgb(109, 100, 100);
+    text-decoration: line-through;
+}
+.parent .price a{
+    color: #BE202E;
+    font-weight: bold;
+}
+.price a:hover{
+    color: #BE202E;
+    font-weight: bold;
+}
+.detail ol{
+    margin: 0px;
+    padding-left: 0.5rem;
+}
+
+
+.box-6{
+    padding: 11rem 0rem;
+}
+
+  .rightarrow button,.leftarrow button{
+      color: #BE202E;
+      font-size: 2rem;
+      border: none;
+  }
+
+  .box-1 {
+      display: flex;
+  }
+  
+.box-6 button{
+    border: none;
+}
+.box-6 a{
+    font-size: 2rem;
+    padding: 1.2rem 0.2rem;
+    display: flex;
+    color:#BE202E;
+}
+.container a{
+    color: #fff;
+}
+.topic .shop1{
+    margin-left: 15%;
+}
+.shop1 a{
+    float: right;
+    color: #BE202E;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.topic .shop{
+    float: right;
+    margin-left: 60%;
+}
+
+
+.banner{
+    padding: 1rem 4rem;
+    margin-bottom: 1rem;
+}
+.banner img{
+    width:100%;
+}
+
+.brand{
+    display: flex;
+    margin-right: 0rem;
+}
+
+/*.container .hexagon .shape{
+   /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    width: 6rem;
+    margin: 0rem 2rem;
+    justify-content: center;
+    background: rgb(172, 169, 158);
+    clip-path: polygon(0 25%,50% 0,100% 25%,100% 75%,50% 100%,0 75%);
+    padding-left: 0px;
+}*/
+.brand .box-6{
+    padding: 2rem 0rem;
+}
+.home h4{
+    text-align: center;
+}
+.home h4 a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.home{
+    display: block;
+}
+.home .container1{
+    width: 100%;
+    /*border: 2px solid red;*/
+    margin:0 0;
+}
+.home h6 a{
+    text-decoration: none;
+    color: #BE202E;
+    font-weight: bold;
+}
+.date{
+    background: #fff;
+    border-radius: 4rem;
+    margin:0 7.5rem;
+    padding: 1.5rem 0rem;
+    margin-top: -3.5rem;
+}
+.date .num a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color:#BE202E ;
+    font-weight: bold;
+}
+.date .month a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding-left: 0.7rem;
+    color:#BE202E ;
+    font-weight: bold;
+
+}
+.date .month{
+    margin-top: -0.5rem;
+
+}
+.date p{
+    text-align: center;
+    margin-bottom: 0rem;
+}
+.blog{
+    display: flex;
+    /*border: 2px solid blue;*/
+    width: 100%;
+    margin-left: 0rem;
+}
+.blog1{
+    padding: 0rem 1rem;
+    border-color: crimson;
+    border: groove;
+    margin: 0rem 0rem;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+.pic img{
+    width: 100%;
+}
+.info a{
+    text-decoration: none;
+    color: black;
+}
+.butn{
+    text-align: center;
+
+}
+.butn button{
+    background: #BE202E;
+    border:none;
+    text-align: center;
+}
+.butn button a{
+    text-decoration: none;
+    color: #fff;
+}
+.discription{
+    background: #000;
+    margin-top: 4rem;
+}
+.letter{
+    display: flex;
+}
+.letter img{
+    margin: 2rem;
+    margin-top: 4rem;
+}
+a{
+    text-decoration: none;
+}
+.mid .title{
+    margin-top: -2rem;
+    display: inline-block;
+    background: #000;
+    padding: 1rem 0rem;
+    
+}
+.mid h4{
+    margin: 0 1rem;
+    margin-bottom: -0.5rem;
+
+    
+}
+.mid h4 a{
+    margin-top: 0rem;
+    color: #fff;
+    font-size: 1.2rem;
+
+}
+
+.newletter h6{
+    margin: 2rem 2rem;
+}
+.newletter h6 a{
+    color: #fff;
+
+}
+.newletter{
+    margin: 2rem;
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+    height: 11rem;
+    border: 4px solid #BE202E;
+    border-radius: 0.5rem;
+    margin-left: 3rem;
+
+}
+.newletter button i{
+    font-weight: bold;
+}
+.app{
+    margin-top: 3rem;
+}
+.name{
+    margin: 1rem 0rem;
+}
+.name a{
+    color: #BE202E;
+}
+.come a{
+    color:#fff;
+}
+.play button{
+    border: 1px solid #BE202E;
+    background: #000;
+    border-radius: 0.3rem;
+}
+.play a{
+    color: #fff;
+}
+.about{
+    background: #000;
+}
+.category{
+    margin: 2rem 5rem;
+}
+.cat1 a{
+    color: #BE202E;
+    font-size: 1.2rem;
+}
+.cat{
+    margin: 0.5rem 0;
+}
+.cat a{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.cat i{
+    color: #BE202E;
+    margin: 0px 0.5rem;
+}
+.fa-pinterest {
+    background: white;
+    color: white;
+  }
+  .log{
+      margin-right:  2rem;
+  }
+  .log a{
+      font-size: 2rem;
+      color: #000;
+  }
+  .payment {
+      border-bottom: 2px solid #BE202E;
+      margin: 0rem 3rem;
+  }
+  .para{
+      text-align: center;
+      margin-top: 2rem;
+  }
+  .para a{
+      color: #000;
+      font-size: 0.9rem;
+  }
+  footer{
+      background: #000;
+  }
+  .foots{
+      display: flex;
+      background: #000;
+  }
+  .foot{
+      margin: 1rem 2rem;
+      margin-left: 4rem;
+      margin-bottom: 0px;
+      background: #000;
+  }
+  .foot a{
+      color:#BE202E;
+  } 
+  
+.foot1{
+    float: right;
+    margin-left: 40%;
+    background: #000;
+  
+  }
+  .payment{
+      display: block;
+  }
+  .payment a:hover{
+color: #000;
+  }
+  .foot1 ol{
+      margin: 1rem 1rem;
+      margin-bottom: 0px;
+
+  }
+  .foot1 a{
+      color: #fff;
+  }
+.dell{
+    margin: 0.6rem 3rem;
+}
+.dell a{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.dell .dell1 a{
+    color: #BE202E;
+}
+.dell2 a{
+    color: #000;
+}
+.photo {
+    width: 35%;
+    padding-top: 0rem;
+    margin: 0 5rem;
+}
+#slider img{
+    width: 28rem;
+    height: 26rem;
+}
+#slider {
+    width: 28rem;
+    height: 26rem;
+   /* margin: 2rem auto;*/
+    margin-top: 0rem;
+    position: relative;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc;
+}
+#slider button{
+    padding: 3rem auto;
+    border: none;
+    font-size: 2rem;
+    color: #BE202E;
+    position: absolute;
+    top: 45%;
+}
+#slider .next{
+margin-left: 25rem;
+}
+#slider .prew{
+    margin-left: 0rem;
+
+}
+.slider-indi{
+    margin-left:0.8rem ;
+    margin-top: 1rem;
+}
+.slider-indi img{
+    width: 80%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc;
+}
+.information{
+    width: 50%;
+    float: right;
+}
+.profile{
+    display: flex;
+    margin-right: 0px;
+    box-sizing:content-box;
+}
+.head p{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.star a{
+    color: #ccc;
+    font-size: 1.4rem;
+}
+.rating .num a{
+    color: #000;
+}
+.rated a{
+    color: yellow;
+}
+ .body p{
+     color: #000;
+     font-size: 1rem;
+     font-weight: 600;
+ }
+ .cost .price a{
+     font-size: 1.2rem;
+     font-weight: 700;
+     color: #BE202E;
+ }
+ .cost .oldprice{
+     font-size: 1rem;
+     margin: 0 2rem;
+     margin-top: 0.2rem;
+ }
+ 
+ #checkbox{
+     cursor: pointer;
+ }
+.stock{
+    margin-left: 10rem;
+    color: green;
+    font-weight: bold;
+}
+.stock input{
+    cursor: pointer;
+}
+.stock input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.stock input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: green;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    
+}
+.quantity h5{
+    font-weight: bold;
+    margin-top: 5px;
+}
+.quantity button{
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 0.4rem;
+    width: 90%;
+    height: 90%;
+    background: rgb(230, 179, 176);
+}
+.quantity button a{
+    color: #fff;
+}
+.quantity button:hover{
+    background: #BE202E;
+}
+.qty1{
+    
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0rem 0.3rem;
+}
+.numb{
+    padding-left: 12px;
+    padding-top: 5px;
+    border-radius: 0.4rem;
+
+    border: 1px solid #000;
+}
+.first p{
+    margin: 0.5rem 0.1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.add button{
+    border: none;
+    height: 3.5rem;
+    width: 45%;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    border-radius: 0.3rem;
+}
+.add a{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.add .cart{
+    margin-right: 2%;
+    background: #BE202E;
+}
+.add .wish{
+    background: #3f9dd3;
+}
+.add i{
+    margin-right: 1rem;
+}
+
+.tweet button{
+    border: none;
+    margin-top: 3rem;
+    height: 2.2rem;
+    width: 6rem;
+    background: #3f9dd3;
+    margin-left: 1rem;
+    border-radius: 0.4rem;
+}
+.tweet i{
+    margin-left: 0.5rem;
+}
+.tweet a{
+    color:#fff;
+    font-size: 1rem;
+}
+.specification{
+    margin-top: 4rem;
+}
+.specification h4 a{
+font-size: 1.8rem;
+color: #000;
+}
+.specification .top{
+    margin: 0rem 25rem;
+}
+.specification .top2{
+    margin: 0rem 10rem;
+}
+.table{
+    width:80%;
+    margin: 10rem auto;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    border-radius: 2rem;
+
+    text-align: left;
+    padding: 8px;
+  }
+  td{
+  margin-left: 20px;
+  }
+  th{
+      width: 20rem;
+      color: #BE202E;
+      font-size: 1.3rem;
+  }
+  tr{
+      height: 3rem;
+      font-size: 1.1rem;
+  }
+  
+  tr:nth-child(odd) {
+border-top: 2px groove rgb(163, 160, 160 ,0.6);
+border-bottom: 2px groove rgb(163, 160, 160 ,0.6);
+
+border-radius: 2rem;
+
+}
+.non{
+    border-left: 1px solid rgb(117, 113, 113);
+    border-right:1px solid rgb(145, 139, 139);
+    border-bottom: 2px solid #fff!important;
+    border-top: 2px solid #fff!important;
+
+}
+table li{
+    margin-left: 30px;
+}
+.review{
+    padding: 2rem 4rem;
+}
+
+
+
+
+              /*---------------page-3 CSS---------------*/
+.customer .head p{
+    font-size: 1.8rem;
+}
+
+.review11 {
+    display: flex;
+    width: 100%;
+    padding: 2rem 1rem;
+}
+.customer .review {
+    display: block;
+    width: 96%;
+    padding: 2rem 1rem;
+}
+.customer{
+    width: 75%;
+}
+.customer p{
+    margin-top: 0px;
+}
+.customer .rates p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.ratings i{
+    color: rgb(152, 153, 155);
+    font-size: 1.4rem;
+}
+.ratings a{
+    color: #000;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+.rated i{
+color: orange;
+}
+  /*---rating board---*/
+
+
+.side {
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+  }
+  
+  .middle {
+    float: left;
+    width: 75%;
+    margin-top: 10px;
+  }
+  
+ 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+  }
+
+  /* Individual bars */
+  .bar-5 {width: 50%; height: 18px; background-color: #BE202E; border-radius: 1rem;}
+  .bar-4 {width: 20%; height: 18px; background-color: #BE202E; border-radius: 1rem;}
+  .bar-3 {width: 10%; height: 18px; background-color: #BE202E; border-radius: 1rem;}
+  .bar-2 {width: 5%; height: 18px; background-color: #BE202E; border-radius: 1rem;}
+  .bar-1 {width: 15%; height: 18px; background-color: #BE202E; border-radius: 1rem;}
+  
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    /* Hide the right column on small screens */
+    .right {
+      display: none;
+    }
+  }
+
+.customer .review button{
+    float: right;
+   padding: 0.5rem 3.5rem;
+    
+    
+}
+.cus-rev a{
+    font-size: 1.2rem;
+}
+.cus-rev p{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.cus-rev img{
+    border-radius: 2rem;
+    width: 7%;
+}
+.cus-rev h6{
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+.cus-rev{
+    margin: 2rem 0rem;
+}
+.toprev{
+    padding: 0 2rem;
+}
+.toprev h5{
+    font-size: 1.8rem;
+    font-weight: 450;
+}
+.toprev .view-all {
+    background-color: #BE202E;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 4rem;
+    border: none;
+    border-radius: 0.4rem;
+}
+.reviewing{
+    border: 4px solid #BE202E;
+    border-radius: 0.4rem;
+    padding:1rem 1.5rem;
+    margin: 2rem 0rem;
+    margin-top: 5rem;
+}
+.reviewing .topic{
+    background: #fff;
+    margin-top: -3rem;
+}
+.reviewing .topic h6{
+    margin: 1rem 0.5rem;
+
+    color: #000;
+}
+
+
+
+
+ .rating1 {
+    display: inline-block;
+    position: relative;
+    margin-left: 1rem;
+    font-size: 30px;
+  }
+
+   .rating1 label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+   .rating1 label:last-child {
+    position: static;
+  }
+  
+   .rating1 label:nth-child(1) {
+    z-index: 5;
+  }
+  
+   .rating1 label:nth-child(2) {
+    z-index: 4;
+  }
+  
+  .rating1 label:nth-child(3) {
+    z-index: 3;
+  }
+  
+   .rating1 label:nth-child(4) {
+    z-index: 2;
+  }
+  
+  .rating1 label:nth-child(5) {
+    z-index: 1;
+  }
+  
+  .rating1 label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+   .rating1 label .icon {
+    float: left;
+    color: transparent;
+  }
+  
+  .rating1 label:last-child .icon {
+    color: #000;
+  }
+  
+   .rating1:not(:hover) label input:checked ~ .icon,
+  .rating1:hover label:hover input ~ .icon {
+    color: orange;
+  }
+  
+.rating1 label input:focus:not(:checked) ~ .icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px orange;
+  }
+
+
+.pro-info label{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.pro-info .file input{
+    width: 95%;
+    margin: 1rem 2.5%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #dddddd;
+    border: none;
+}
+/*.pro-info .file label{
+    margin: 0rem 2.5%;
+}*/
+.submit-re{
+    margin: 0 13rem;
+margin-bottom: -2.8rem;
+text-align: center;
+background: #fff;
+}
+.reviewing .submit-re button{
+    background: #BE202E;
+    color: #fff;
+    padding: 0.8rem 4rem;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           /*---------------page-4 CSS---------------*/
+
+
+
+
+
+
+.login-box{
+    margin:5rem auto;
+    margin-top: 2rem;
+    
+    width: 60%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border: 4px solid #BE202E;
+    border-radius: 0.4rem;
+    height: 35rem;
+
+
+
+}
+.login-box .password label{
+    font-weight: 400;
+}
+.create{
+    margin: 8rem 0rem
+}
+.create .head{
+    margin-left: 40%;
+    width: 13%;
+    text-align: center;
+    padding: 0px 0rem;
+    background: #fff;
+    position: absolute;
+    margin-top: -1rem;
+
+
+}
+.login{
+    width: 25%;
+    margin: 0px 31rem;
+    margin-top: -7rem;
+    padding: 0px 2rem;
+    background: #fff;
+}
+.foot2 button{
+    width: 100%;
+    border: none;
+    height: 3rem;
+    background: #BE202E;
+    border-radius: 0.3rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.sign a{
+    color:#BE202E;
+}
+.acc a{
+    color: #000;
+}
+.login a{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.create .d-flex{
+    margin-top: 1rem;
+}
+.login-box p{
+    margin: 2rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+.login-box form{
+    width: 85%;
+    margin: 2rem 3rem;
+
+}
+.login-box form input{
+    width: 100%;
+    height: 3rem;
+    background: rgb(235, 229, 229);
+    border: none;
+    padding: 0 1.5rem;
+    border-radius: 0.4rem;
+
+}
+.login-box form label{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem 0rem;
+    
+}
+ label a{
+    color: #BE202E;
+    font-size: 1.5rem;
+}
+ .login-box .pass a{
+     float: right;
+     font-size: 1.4rem;
+     font-weight: 500;
+     color: #BE202E;
+ }
+ .login-box .check{
+     margin: 1rem 0rem;
+ }
+ .login-box .check label{
+     font-weight: 400;
+     font-size: 1.4rem;
+     margin: 0;
+ }
+.login-box .check input{
+    width: 10%;
+    height: 1.5rem;
+    background: rgb(235, 229, 229);
+    border: none;
+    padding: 0 1.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+/*--------------------page-6 CSS-------------------------------*/
+.heading{
+    /*margin: 0px 20rem;*/
+    text-align: center;
+    margin: 2rem auto;
+}
+.heading h2{
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+.cart-item{
+    display: flex;
+    padding: 1rem 2rem;
+}
+.item{
+    width: 60%;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+.summary{
+    width: 35%;
+    border: 4px solid #BE202E;
+    margin-left: 2rem;
+    border-radius: 0.2rem;
+    padding: 0 1rem;
+}
+.item h4 a{
+    color: black;
+    margin-left: 60%;
+}
+.item h4{
+    margin-left: 1rem;
+}
+.item-body{
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    width:100%;
+}
+.item-body img{
+    border: 1px solid rgb(209, 204, 204);
+    margin-right: 1rem;
+    border-radius: 0.3rem;
+
+}
+.item-body p{
+    width: 35%;
+}
+.del i{
+    font-size: 1.7rem;
+    color: #BE202E;
+
+}
+.shoping-image{
+    display: flex;
+}
+
+.delete{
+    margin: 2rem 0rem;
+    display: flex;
+}
+.subtotal .bgx{
+    padding: 0.4rem 0.5rem;
+    margin-left: 2%;
+    background: rgb(221, 195, 195);
+    color: #000;
+    border-radius: 0.3rem;
+}
+
+.summary .summ{
+    margin:-1.5rem -2rem;
+    padding: 0.2rem 1rem;
+    width: 37%;
+    background: #fff;
+}
+.ship-tax{
+    margin-top: 3rem;
+    background: #e0a5aa;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.2rem;
+
+}
+.ship-tax i{
+    float: right;
+    color: black;
+
+}
+.free-ship{
+    margin-top: 1rem;
+    background: #fff;
+    padding: 0.8rem;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc;
+    border-radius: 0.2rem;
+}
+.free-ship h6{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #BE202E;
+   
+}
+.sub-total{
+    margin: 1rem 0rem;
+    border-bottom:1px solid #BE202E;
+    padding-bottom: 1rem;
+}
+.total{
+    font-weight: 700;
+
+}
+.sub-total a{
+    float: right;
+    color: #000;
+    font-weight: 600;
+}
+.ship-date{
+    margin: 0.5rem 0rem;
+}
+.sdate{
+    width: 70%;
+}
+.sprice{
+
+    margin-left: 13%;
+    font-weight: 600;
+}
+.order{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.8rem 0rem;
+}
+.order a{
+    font-weight: 700;
+    float: right;
+    color: #BE202E;
+}
+.discount{
+    margin: 0.8rem 0rem;
+}
+.discount label{
+    margin: 0.2rem 0rem;
+}
+.discount input{
+    width: 100%;
+    height: 2.8rem;
+    border: none;
+    background: #ccc;
+    padding: 0rem 1rem;
+    border-radius:0.2rem;
+}
+.discount button{
+    width: 40%;
+    background: #3f9dd3;
+    height: 2.8rem;
+    border: none;
+    padding: 0rem 1rem;
+    color: #fff;
+    font-weight: 600;
+    border-radius:0.2rem;
+}
+/*.proceed{
+    text-align: center;
+    margin-bottom: -1.8rem;
+    margin-top: 3rem;
+    
+}*/
+.proceed button{
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.1rem;
+    background: #BE202E;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius:0.3rem;
+
+}
+.proceed{
+    text-align: center;
+    margin-bottom: -1.8rem;
+    margin-top: 3rem;
+    width: 65%;
+    padding-left: 0rem;
+    margin-left: 4rem;
+    background-color: #fff;
+}
+.continue{
+    float: right;
+}
+.continue button{
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.1rem;
+    background: #BE202E;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    margin: 1rem 0rem;
+    border-radius:0.3rem;
+}
+                /*--------------------page-7 CSS--------------*/
+
+.my-account{
+    width: 23%;
+    margin:0 2rem;
+}
+.my-account ul{
+    background: #000;
+    padding: 0.8rem 0.2rem;
+  
+    border-radius: 0.4rem;
+    display: grid;
+}
+.acc-detail{
+    width: 55%;
+}
+.account-box{
+    display: flex;
+}
+.edit{
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1.2rem;
+}
+.acc-box{
+    display: flex;
+    width: 70%;
+}
+
+.my-account i{
+    color:#BE202E;
+    font-size: 1.4rem;
+}
+.my-account a{
+    color: #fff;
+    margin-left: 0.8rem;
+}
+.account-box{
+    padding: 1rem 2rem;
+}
+.my-account ol{
+    
+    margin: 0.4rem 0.2rem;
+    padding:0.6rem 0rem ;
+    padding-left: 1rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+.my-account .active i,.my-account .active a{
+color: #000;
+font-weight: 700;
+}
+.my-account .active{
+    background: #BE202E;
+
+}
+.acc-detail ul,h6{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #BE202E;
+}
+.acc-detail li{
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    padding:0.6rem 0rem ;
+
+}
+.acc-detail ul a{
+    float: right;
+    color: #BE202E;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.edit p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.edit a{
+    color: black;
+}
+.account-sub{
+    width: 45%; 
+
+}
+.acc-subs{
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc;
+    padding: 0.8rem 1rem;
+    margin:0 2rem;  
+    border-radius: 0.4rem;
+}
+.acc-subs h4{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #BE202E;
+}
+.acc-subs p{
+    font-weight: 400;
+}
+            /*------------------page-8 CSS---------------*/
+
+.my-order{
+    width:68%;
+}
+.myorder{
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+}
+.myorder h5{
+    color: #BE202E;
+}
+.myorder h6{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+}
+.order-image{
+    width:60%
+}
+.order-image img{
+    margin: 1rem 0rem;
+    border:1px solid #ccc;
+    margin-right: 1rem;
+}
+.order-image p{
+    margin-top: 3rem;
+}
+.qty-1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.qty-1 h6{
+    font-weight: 600;
+}
+
+.view{
+    width: 30%;
+}
+.view .detail{
+    float: right;
+}
+.view p{
+    color: #BE202E;
+    font-weight: 700;
+}
+.view button{
+    float: right;
+}
+.view i{
+    margin-left: 1rem;
+}
+.view button{
+    margin-top:4rem;
+    margin-right: 2rem ;
+    border: none;
+    padding: 0.6rem 1rem;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.6rem;
+}
+
+
+          /*------------page-9 CSS------------------*/
+
+
+.my-wishlist{
+    width:70%;
+}
+.wish-list{
+    width: 35%;
+
+}
+.wish-list .detail{
+    padding: 0 1rem;
+}
+.wish-list .box5{
+    height: 8rem;
+    margin-left: -4rem;
+}
+.wish-list a{
+    color: #000;
+}
+.wish-list .price a{
+    color: #BE202E;
+    font-weight: 700;
+}
+.wish-list .container{
+    display: flex;
+}
+.wishh{
+    display: flex;
+}
+.addtocart{
+    float: left;
+}
+
+
+             /*--------------page-10 CSS-----------------*/
+
+.review button{
+    border: 2px solid #BE202E;
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    font-weight: 500;
+    color: #BE202E;
+    background: #fff;
+    float: right;
+
+
+}
+.reviewed h6{
+    margin: 2rem;
+    padding-left:2rem ;
+    border-radius: 0.4rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.review {
+    display: block;
+    width: 43%;
+    padding: 2rem 1rem;
+}
+
+
+             /*--------------page-11 CSS-----------------*/
+
+
+.address{
+    width:70%;
+    border: 4px solid #BE202E;
+    padding: 0 1rem;
+    border-radius: 0.4rem;
+}
+.addr{
+    margin-top: -1rem;
+}
+.addr h4{
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: #fff;
+    text-align: center;
+    padding: 0.8rem;
+    margin-left: 36%;
+}
+.address .add-name{
+    width: 100%;
+    padding: 0 1rem;
+    margin: 1rem 0;
+}
+.names{
+    display: flex;
+}
+.address input{
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: rgb(233, 229, 229);
+
+}
+.address label{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+}
+.address .continue{
+    margin: 0 35%;
+    margin-bottom: -2.5rem;
+}
+.address .continue button{
+    padding: 0.8rem 6.5rem;
+}
+           /*--------------page-12 CSS----------------*/
+
+.subscribe{
+    width: 60%;
+}
+.sub{
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc;   
+    max-width: 35rem; 
+    border-radius: 0.4rem;
+    padding: 1.5rem;
+}
+.subscribe .continue{
+    float: left;
+}
+.sub label{
+    margin: 0rem 1rem;
+    margin-bottom: 3rem;
+}
+.sub input{
+    cursor: pointer;
+}
+           /*--------------page-13 CSS----------------*/
+.about-us{
+    padding: 0 3rem;
+}
+.about-us h4{
+    color: #BE202E;
+    font-size: 1.2rem;
+}
+.about-us ol{
+    margin-top: 1rem;
+}
+           /*--------------page-16 CSS----------------*/
+.heading a{
+    color: #BE202E;
+}
+.ordered .my-order{
+    padding: 0 3rem;
+}
+.ordered{
+    display: flex;
+}
+.order-item{
+    display:flex;
+}
+.review1 button{
+    float: right;
+    border: 2px solid #BE202E;
+    border-radius: 0.4rem;
+    font-weight: 500;
+    color: #BE202E;
+    background: #fff;
+    padding: 0.6rem 1rem;
+  
+}
+.container .order-image {
+    width: 75%;
+}
+.view button{
+    float: right;
+}
+.complete button{
+    float: right;
+    color: #fff;
+    background-color: green;
+    border: none;
+    padding: 0.5rem 0.8rem ;
+    border-radius: 0.4rem;
+
+    
+}
+.complete{
+    margin-top: -4.5rem;
+    margin-bottom: 4rem;
+   /* margin-right: 6.5rem;*/
+}
+.ordered .shipping{
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc; 
+    width: 45%;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    margin-left: 2.5%;
+
+    
+}
+.shipping-add h4{
+    color: #BE202E;
+
+}
+.shipping p{
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+.shipping h5{
+    font-size: 1.2rem;
+    padding: 0.4rem 0rem;
+    font-weight: 600;
+}
+.shipping h5 a{
+    color: #000;
+    margin-left: 0.6rem;
+    font-weight: 350;
+}
+.shipping-summary{
+    width: 30%;
+
+    padding-top:1.5rem ;
+}
+.shipping-summary a{
+    float: right;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 500;
+}
+.ship-sum{
+    width: 100%;
+    padding: 0rem 1rem;
+
+    border:4px solid #BE202E;
+    border-radius: 0.4rem;
+}
+.shipping-summary h6{
+    color:#000 ;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.price1{
+    width: 35%;
+}
+.order-image{
+    display: flex;
+}
+.summari{
+    
+    width: fit-content;
+    padding: 0.6rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: -2rem;
+    margin-left: -1.6rem;
+    background-color: #fff;
+}
+.shipping-summary p{
+    width: 66%;
+}
+.shipping-summary .d-flex{
+    border-bottom: 1px solid #BE202E;
+    margin-bottom: 1rem;
+}
+.o-total a{
+    color: #BE202E;
+}
+.bank{
+    font-size: 1.1rem;
+    font-weight: 450;
+    margin: 1.5rem 0rem;
+}
+
+
+
+
+.shipping-address .address {
+   width: 100%;
+    margin-top: 3rem;
+}
+.addr h4{
+    font-size: 1.8rem;
+}
+.shipping-address input{
+padding: 1rem 1rem;
+}
+.shipping-address .address{
+    padding:0 2rem;
+}
+input,textarea,input::-webkit-input-placeholder {
+    font-size: 1.2em;
+    line-height: 1;
+    
+}
+
+
+
+             /*---------page14-CSS----------*/
+
+.del-date{
+    margin-left: 6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.shipping-address{
+    display: flex;
+    padding: 1rem 2rem;
+}            
+.shipped{
+    width: 63%;
+}
+.shipping-address .myorder h6{
+    font-size: 1.2rem;
+    font-weight:700 ;
+    margin: 1rem 0;
+}
+.shipping-address .myorder{
+    margin: 1rem 0;
+
+}
+.image2{
+    display: flex;
+}
+.shipping-address .continue button{
+    padding: 1rem 8rem;
+}
+textarea{
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: rgb(233, 229, 229);
+
+}
+.shipping-address .shipping-summary{
+    margin: 1.5rem 1rem;
+}
+.shipping-address .shipping-summary h6{
+    background-color: #dbc2c5;
+    padding: 1rem ;
+    margin: 0.5rem;
+    border-radius: 0.4rem;
+}
+.shipping-address .shipping-summary .d-flex{
+    border: none;
+}
+.demo-img{
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc; 
+    border-radius: 0.4rem;
+    margin: 1rem 0.5rem;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+}
+.demo-img img{
+    width: 21%;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    padding: 5px;
+}
+.shipping-address .shipping-summary .demo-img h6{
+    font-size: 14px;
+    padding: 0;
+    background-color: #fff;
+    margin-top: 2rem;
+}
+.demo-img p{
+    font-size: 0.8rem;
+    padding: 5px;
+}
+.shipping-summary h6 i{
+    float: right;
+}
+
+#checking{
+    border:2px solid white;
+    box-shadow:0 0 0 1px #932;
+    appearance:none;
+    border-radius:50%;
+    width:12px;
+    height:12px;
+    background-color:#fff;
+    transition:all ease-in 0.2s;
+  
+  }
+  #checking:checked{
+    background-color:#932;
+  }
+
+
+          /*------------page15 CSS--------------*/
+
+     .circle1{
+              
+              margin-top: -6.9rem;
+          }
+          .circle2{
+            margin-top: -4.5rem;
+
+          }
+.circle1 a{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #ccc;
+    margin-left: 35%;
+    background: #fff;
+}
+.image1 h6{
+    width: 43%;
+}
+.demo-img img{
+    margin-left: auto;
+}
+.circle2 a{
+    
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #ccc;
+    margin-left: 62%;
+    background: #fff;
+}
+
+
+.long{
+   background: #ccc;
+    margin: 4rem 24%;
+    border-radius: 0.4rem;
+}
+.line{
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+ .activated{
+background: #BE202E;
+}
+.activated {
+    color: #BE202E!important;
+}
+.payment-methods{
+    padding: 3rem;
+    display: flex;
+}
+.shipping-summary{
+    width: 37%;
+}
+.heading1{
+text-align: center;
+margin: 0 18%;
+margin-left: 34%;
+
+}
+.heading1 .header1{
+    
+    
+    margin-left: 0rem;
+}
+.heading1 a{
+    color: #BE202E;
+}
+.pay-method{
+    width: 60%;
+    padding: 1rem 2rem;
+}
+
+.bank-transfer{
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #ccc;
+    border-radius: 0.4rem;
+}
+.bank-transfer h4{
+    font-weight: 400;
+}
+.bank-transfer .img1{
+    width: 1.8rem;
+}
+.pay-method img{
+    height: 2rem;
+    margin-left: 2rem;
+}
+.bank-transfer .up{
+    width: 60%;
+}
+.up a{
+    float: right;
+    font-size: 2rem;
+    color: #000;
+}
+.place-order{
+    padding: 2rem;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc; 
+    border-radius: 0.4rem;
+}
+.place-order h6{
+    color: #000;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.place-order p{
+    font-size: 0.8rem;
+}
+.pla-order button{
+    border: none;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    background: #BE202E;
+    border-radius: 0.4rem;
+}
+.pla-order{
+    margin-top: 2rem;
+
+}
+.apply-discount{
+    margin: 2rem 0;
+    width: 50%;
+    
+}
+#select{
+    margin-top: 2rem;
+    border: none;
+    background: #dbc2c5;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+
+}
+.apply-discount label{
+    margin: 0.8rem 0;
+    font-size: 1.1rem;
+}
+.apply-discount input{
+    width: 100%;
+    border: none;
+    background: #d1d3d1;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+
+}
+.apply-dis button{
+    border:none;
+    padding: 0.8rem;
+    color: #fff;
+    background: #3f9dd3;
+    margin-top: 2rem;
+    border-radius: 0.4rem;
+}
+.image1{
+    display: flex;
+}
+.image1 h6{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.backg{
+    background: #dbc2c5;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    margin-top: 4rem;
+}
+.payment-methods .my-5 a{
+    float: left;
+}
+.payment-methods p{
+    margin: 1rem 0.5rem;
+}
+.payment-methods h5{
+    font-weight: 400;
+    margin: 3rem 1rem;
+}
+.shipping-summary i{
+    float: right;
+    color: #BE202E;
+}
+
+
+
+
+
+
+
+/*.paymentmethodsection{
+    margin-top: 50px;
+
+}
+.bank1{
+    background-color: rgb(172, 165, 165);
+    border-radius: 5px;
+    opacity: 0.9;
+    width: 700px;
+    padding: 0.5rem;
+}
+.titilename p{
+    color: rgb(41, 36, 36);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 100%;
+}
+.imgbank{
+    height: 1.5rem;
+    margin-top: 10px;
+    margin-left: -5rem;
+    font-weight: 800;
+}
+.uprow img{
+    height: 16px;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.sectionsummary{
+    margin-left: 100px;
+    margin-top: 5px;
+    border: 2px solid #BE202E;
+    min-height: 49vh;
+}
+.Khaltisummary{
+    margin-left: 100px;
+    margin-top: 5px;
+    border: 2px solid #BE202E;
+    min-height: 36vh;
+}
+.Esewasummary{
+    margin-left: 100px;
+    margin-top: 5px;
+    border: 2px solid #BE202E;
+    min-height: 16vh;
+}
+.summary1{
+    margin-top: 5px;
+   
+}
+.summary1 p{
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: -13px;
+}
+
+.banktransfercard{
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    min-height: 45vh;
+    padding: 1rem ;
+}
+.khaltitransfercard{
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    min-height: 22vh;
+    padding: 1rem ;
+
+}
+
+#vehicle1{
+    font-size: 12px;
+
+    margin-top: 15px;
+}
+#addresssame{
+    font-size: 1rem;
+}
+#select{
+    font-size: 1rem;
+}
+#tiitle{
+    font-weight: 600;
+    margin-top: 15px;
+}
+#subtiitle{
+    font-size: 12px;
+    margin-top: 15px;
+}
+#minebtn{
+   font-size: 1rem;
+   font-weight: 600;
+}
+.lamoline{
+ border: 1px solid #BE202E;
+}
+.itemincard{
+    background-color: rgb(221, 192, 192);
+    height: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+#oneitemincard{
+    margin-left: 10px ;
+    font-size: 13px;
+}
+#ord{
+    font-size: 13px;
+}
+#bold{
+    font-weight: bold;
+}
+#pricecolor{
+    color: #BE202E;
+    font-weight: bold;
+}
+#imganddet{
+   
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.dell{
+    height: 30px;
+    margin-left: 10px;
+}
+#dellspec{
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+#pp{
+    font-size: 13px;
+    font-weight: 600;
+    color: #BE202E;
+    font-weight: bold;
+}
+
+#boldaddress{
+    font-weight: bold;
+    
+}
+#seeting{
+    height: 20px;
+    margin-left: 110px;
+}
+#shpiingmethod{
+    font-size: 17px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+#select{
+    background-color: rgb(202, 159, 159);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem;
+}
+.form-group input{
+    background: #ccc;
+    padding: 0.7rem;
+}
+.lastsection{
+min-height: 35vh;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

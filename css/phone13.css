@@ -1,0 +1,179 @@
+.qty-1{
+    display: none;
+}
+.ordered .shipping {
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px #ccc;
+    width: 45%;
+    padding: 1rem 0.5rem;
+    border-radius: 0.4rem;
+    margin-left: 2.5%;
+}
+.shipping h5 {
+    font-size: 1.2rem;
+    padding: 0rem 0rem;
+    font-weight: 600;
+}
+.order-image{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.long {
+    background: #ccc;
+    margin: 4rem 19%;
+    border-radius: 0.4rem;
+}
+.heading1 {
+    text-align: center;
+    margin: 0 12%;
+    margin-left: 22%;
+}
+.pay-method {
+    width: 60%;
+    padding: 1rem 0.5rem;
+}
+.pay-method img {
+    height: 2rem;
+    margin-left: 0.8rem;
+}
+.bank-transfer .up {
+    width: 28%;
+}
+
+
+
+
+
+
+
+
+.shipping-address {
+    display: block;
+    padding: 1rem 2rem;
+}
+.shipped {
+    width: 95%;
+    margin: auto;
+}
+.shipping-address .shipping-summary {
+    margin: auto;
+    margin-top: 10rem;
+}
+.shipping-summary {
+    width: 80%;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+
+
+
+           /*-----------page7-CSS---------------*/
+            .my-account a {
+            
+            display: none;
+        }
+.account-box{
+    display: block;
+}
+.my-account ul{
+    display: flex;
+}
+.my-account ol {
+    margin: 0.4rem 0.2rem;
+    padding: 0.6rem 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+.my-account {
+    width: 100%;
+    margin: 0 1rem;
+}
+.acc-box {
+    display: block;
+    width: 98%;
+}
+
+    /*----------page8-CSS------------*/
+
+
+
+.view button {
+    margin-top: 14rem;
+    margin-right: 0rem;
+    border: none;
+    padding: 0.6rem 1rem;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.6rem;
+}
+.detail p i{
+    display: none;
+}
+
+    /*----------page8-CSS------------*/
+    .wish-list {
+        width: 95%;
+    }
+    .my-wishlist {
+        width: 100%;
+    }
+    .account-box .myorder {
+        border: 2px solid #fff;
+        box-shadow: 0 0 5px 2px #ccc;
+        margin-bottom: 2rem;
+        padding: 1rem 0rem;
+        border-radius: 0.4rem;
+    }
+
+
+
+
+
+        /*----------page11-CSS------------*/
+        .account-box .address {
+            width: 100%;
+            border: 4px solid #BE202E;
+            padding: 0 1rem;
+            border-radius: 0.4rem;
+            margin-top: 3rem;
+        }
+
+
+           /*----------page12-CSS------------*/
+           .subscribe {
+            width: 100%;
+        }
+
+
+           /*----------page6-CSS------------*/
+
+        .item-body {
+            border: 2px solid #fff;
+            box-shadow: 0 0 5px 2px #ccc;
+            padding: 1rem;
+            border-radius: 0.3rem;
+            display: block;
+            width: 100%;
+        }
+        .item h4 a {
+            color: black;
+            margin-left: 60%;
+            display: none;
+        }
+        .ship-tax i {
+            float: right;
+            color: black;
+            display: none;
+        }

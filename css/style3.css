@@ -1,0 +1,110 @@
+a{
+    text-decoration:none ;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+
+}
+.child {
+    width: 25%;
+    margin: 0 10px;
+    display: none;
+}
+.child img{
+    height: 200px;
+    width: 100%;
+}
+#leftarrow , #rightarrow{
+    margin-left: 12px;
+    display: inline-block;
+}
+#leftarrow button, #rightarrow button{
+    font-weight: bold;
+    font-size: 15px;
+}
+.box5{
+    display: inline;
+    padding: 0.8rem 1rem;
+    background-color: rgba(161, 154, 154, 0.3);
+    margin: 3rem 0px;
+    padding-bottom: 0px;
+    margin-left: -4rem;
+    padding-left: 0rem;
+
+    border-radius: 2rem;
+}
+.box5 i{
+    color: black;
+    font-size: 23px;
+    margin: 15px 0px;
+}
+.box5 ol{
+     margin: 11px 0px;
+    margin-left: -1rem;
+}
+.child a{
+    color: rgb(109, 100, 100);
+}
+.oldprice a{
+    font-size: 14px;
+    color: rgb(109, 100, 100);
+    text-decoration: line-through;
+}
+.price a{
+    color: #BE202E;
+    font-weight: bold;
+}
+.detail ol{
+    margin: 0px;
+    padding-left: 0.5rem;
+}
+.table{
+    width:80%;
+    margin: 10rem auto;
+    border-radius: 2rem;
+
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    border-radius: 2rem;
+
+    text-align: left;
+    padding: 8px;
+  }
+  td{
+  margin-left: 20px;
+  }
+  th{
+      width: 20rem;
+      color: #BE202E;
+      font-size: 1.3rem;
+  }
+  tr{
+      height: 3rem;
+      font-size: 1.1rem;
+  }
+  
+  tr:nth-child(odd) {
+border-top: 2px groove rgb(163, 160, 160 ,0.6);
+border-bottom: 2px groove rgb(163, 160, 160 ,0.6);
+
+border-radius: 2rem;
+
+}
+.non{
+    border-left: 1px solid rgb(117, 113, 113);
+    border-right:1px solid rgb(145, 139, 139);
+    border-bottom: 2px solid #fff!important;
+    border-top: 2px solid #fff!important;
+
+}

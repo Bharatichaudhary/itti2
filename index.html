@@ -1,0 +1,928 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <title>latitide|specification</title>
+  <link rel='stylesheet' href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 1194px)" href="css/phone.css">
+  <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/phone1.css">
+  <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/phone2.css">
+  <link rel="stylesheet" media="screen and (max-width: 646px)" href="css/phone3.css">
+  <link rel="stylesheet" media="screen and (max-width: 576px)" href="css/phone4.css">
+  <link rel="stylesheet" media="screen and (max-width: 450px)" href="css/phone5.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  
+</head>
+
+<body onload="show()">
+  <div class="header-top">
+    <div class="container">
+      <ul class="left d-flex">
+
+        <ol><a href="#"><i class="bi bi-headset"></i></a></ol>
+        <ol class="num"><a href="#">01-4242101</a></ol>
+        <ol class="pipe-separator"><a href="">|</a></ol>
+        <ol class="con"><a href="#">Contact</a></ol>
+      </ul>
+    </div>
+    <div class="container">
+      <ul class="right2">
+        <ol><a href="#">Track my order</a></ol>
+      </ul>
+    </div>
+  </div>
+  <div class="header d-flex">
+    <div class="logo">
+      <img src="img/itti-logo.png">
+    </div>
+    <div class="box-1 d-flex">
+      <ul class="container sea d-flex">
+        <ol class="box1 ">
+          <form class="d-flex">
+            <button><a href="#"><strong><i class="bi bi-search"></i></strong></a>
+          </button>
+            <input class="form-control me-2" style="border-radius: 0rem;" type="search" placeholder="Enter keywords to search" aria-label="Search">
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+          </form></ol>
+      </ul>
+      <ul class="container d-flex">
+        <ol class="box1"><a href="#"><i class="bi bi-person-circle"></i>
+            Login</a></ol>
+        <ol class="box1"><a href="#"><i class="bi bi-heart"></i>
+            Wishlist</a></ol>
+        <ol class="box1"><a href="#"><i class="bi bi-cart"></i>
+            Cart</a></ol>
+      </ul>
+    </div>
+  </div>
+  <div class="navigation">
+    <div class="navbar">
+      <ul class="nav">
+        <ol class="nav-item"><a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            ALL CATEGORIES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+        </ol>
+        <ol class="nav-item"><a href="#">NEW ARRIVALS</a></ol>
+        <ol class="nav-item"><a href="#">ABOUT US</a></ol>
+        <ol class="nav-item"><a href="#">TECH DEALS</a></ol>
+        <ol class="nav-item"><a href="#">CUSTOM PC BUILDER</a></ol>
+      </ul>
+    </div>
+  </div>
+  <div class="dell ">
+    <ul class="d-flex">
+      <ol class="dell1"><a href="#">Home</a></ol>
+      <ol class="dell2"><a href="#"><i class="bi bi-chevron-right"></i></a></ol>
+      <ol class="dell1"><a href="#">Categories</a></ol>
+      <ol class="dell2"><a href="#"><i class="bi bi-chevron-right"></i></a></ol>
+      <ol class="dell1"><a href="#">Dell</a></ol>
+      <ol class="dell2"><a href="#"><i class="bi bi-chevron-right"></i> </a></ol>
+      <ol class="dell2"><a href="#">Latitude Series</a></ol>
+    </ul>
+  </div>
+  <div class="profile ">
+    <div class="photo">
+      <div id="slider">
+        <div id="boxx">
+          <img src="img/dell1.jpg" class="img-fluid rounded-start">
+        </div>
+        <button class="prew" onclick="prewimage()"><i class="bi bi-chevron-left"></i></button>
+        <button class="next" onclick="nextimage()"><i class="bi bi-chevron-right"></i></button>
+
+      </div>
+      <div class="slider-indi d-flex">
+        <div id="a1"><img src="img/dell11.jpg"></div>
+        <div id="a2"><img src="img/dell12.jpg"> </div>
+        <div id="a3"><img src="img/dell13.jpg"></div>
+      </div>
+
+    </div>
+    <div class="information">
+      <div class="head">
+        <p>Dell G5 2021 G5510 i5 10th Gen / GTX 1650 / 8GB RAM / 256GB SSD / 15.6" 120Hz
+          FHD Display</p>
+      </div>
+      <div class="rating">
+        <ul class="d-flex">
+          <ol class="star rated"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+          <ol class="star rated"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+          <ol class="star rated"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+          <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+          <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+          <ol class="star num"><a href="#">4.5</a></ol>
+        </ul>
+      </div>
+      <div class="body">
+        <p>Brand new Dell G5 2021 G5510 Gaming laptop with 10th gen Intel
+          Core i5-10200H processor, NVIDIA GTX 1650 graphics card with 4GB of VRAM, 8GB DDR4 RAM (Expandable),
+          256GB SSD storage, 15.6-inch IPS display with 120Hz refresh rate, Full-HD resolution
+          & 250 nits brightness, 2 x 2W stereo speakers, HD RGB Web camera, 0.83" thickness, 2.44KG Weight</p>
+      </div>
+      <div class="cost d-flex">
+        <div class="price"><a href="#">NPR 115,000.00</a></div>
+        <div class="oldprice"><a href="#">NPR 125,000.00</a></div>
+        <div class="stock">
+          <input type="radio" value="stock" class="high">
+            <label for="stock">In Stock</label><br>
+        </div>
+      </div>
+      <div class="vat"><p>**Price is inclusive of VAT**</p></div>
+      <div class="quantity d-flex">
+        <h5>Qty:</h5>
+        <div class="qty1"><button><a href="#">-</a></button></div>
+        <div class="qty1 numb">1</div>
+        <div class="qty1"><button><a href="#">+</a></button></div>
+      </div>
+      <div class="first"><p>Be the first to review this product.</p></div>
+      <div class="add">
+        <button class="cart"><a href="#"><i class="bi bi-cart"></i>Add to Cart</a></button>
+        <button class="wish"><a href="#"><i class="bi bi-heart"></i>Add to Wishlist</a></button>
+      </div>
+      <div class="tweet">
+        <button><a href="#"><i class="bi bi-twitter"></i>
+          Tweet</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="specification">
+    <div class="top d-flex">
+
+      <div ><h4><a href="https://bharatichaudhary.github.io/itti/">Specification</a></h4></div>
+      <div class="top2" style="border-bottom: 4px solid #BE202E;"><h4><a href="#">Reviews</a></h4></div>
+    </div>
+
+  </div>
+
+  <div class="review11 ">
+      <div class="customer">
+          <div class="head"><p>Customer Reviews</p></div>
+          <div class="rates"><p>3 out of 5</p></div>
+          <div class="ratings">
+              <ul class="d-flex">
+                  <ol class="rated"><i class="bi bi-star-fill"></i></ol>
+                  <ol class="rated"><i class="bi bi-star-fill"></i></ol>
+                  <ol><i class="bi bi-star-fill"></i></ol>
+                  <ol><i class="bi bi-star-fill"></i></ol>
+                  <ol><i class="bi bi-star-fill"></i></ol>
+                  <ol><a href="#">18 reviews</a></ol>
+              </ul>
+          </div>
+
+          <div class="row">
+            <div class="side">
+              <div>5 star</div>
+            </div>
+            <div class="middle">
+              <div class="bar-container">
+                <div class="bar-5"></div>
+              </div>
+            </div>
+            
+            <div class="side">
+              <div>4 star</div>
+            </div>
+            <div class="middle">
+              <div class="bar-container">
+                <div class="bar-4"></div>
+              </div>
+            </div>
+           
+            <div class="side">
+              <div>3 star</div>
+            </div>
+            <div class="middle">
+              <div class="bar-container">
+                <div class="bar-3"></div>
+              </div>
+            </div>
+
+            <div class="side">
+              <div>2 star</div>
+            </div>
+            <div class="middle">
+              <div class="bar-container">
+                <div class="bar-2"></div>
+              </div>
+            </div>
+            
+            <div class="side">
+              <div>1 star</div>
+            </div>
+            <div class="middle">
+              <div class="bar-container">
+                <div class="bar-1"></div>
+              </div>
+            </div>
+            
+            </div>
+            <div class="review">
+              <button >Write a Review</button>
+            </div>
+<div style="float: right; margin: 1rem;">
+  Share your thoughts with other 
+customers
+</div>
+
+
+
+      </div>
+      <div class="toprev">
+        <h5>Top reviews</h5>
+        <div class="cus-rev">
+          <div class=" d-flex">
+          <img src="img/profile1.jpg" >
+          <h6>John Doe</h6>
+          </div>
+          <div class="ratings">
+            <ul class="d-flex">
+                <ol class="rated"><i class="bi bi-star-fill"></i></ol>
+                <ol class="rated"><i class="bi bi-star-fill"></i></ol>
+                <ol><i class="bi bi-star-fill"></i></ol>
+                <ol><i class="bi bi-star-fill"></i></ol>
+                <ol><i class="bi bi-star-fill"></i></ol>
+                <ol><a href="#">June 20,2021</a></ol>
+            </ul>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptate quaerat fuga, officia dolorum, sint ipsam at autem dolore, ut aperiam ducimus ipsa recusandae molestias dignissimos non aut nostrum cum.
+         </p>
+        </div>
+        <div class="cus-rev">
+          <div class=" d-flex">
+          <img src="img/profile2.jpg" >
+          <h6>John Doe</h6>
+          </div>
+          <div class="ratings">
+            <ul class="d-flex">
+                <ol class="rated"><i class="bi bi-star-fill"></i></ol>
+                <ol class="rated"><i class="bi bi-star-fill"></i></ol>
+                <ol><i class="bi bi-star-fill"></i></ol>
+                <ol><i class="bi bi-star-fill"></i></ol>
+                <ol><i class="bi bi-star-fill"></i></ol>
+                <ol><a href="#">June 20,2021</a></ol>
+            </ul>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptate quaerat fuga, officia dolorum, sint ipsam at autem dolore, ut aperiam ducimus ipsa recusandae molestias dignissimos non aut nostrum cum.
+         </p>
+        </div>
+        <div>
+          <button class="view-all">View all reviews</button>
+        </div>
+        <div class="pro-info">
+          <div class="reviewing">
+           <div class="topic d-flex">
+             <h6>Reviewing:</h6>
+             <h3>Dell Latitude 3410 i3 10th Gen / 4GB RAM / 1TB HDD 
+              / 14" HD Display</h3>
+           </div>
+           <div class="file">
+           <label for="">Your Rating <a href="#">*</a></label>
+           <div class="d-flex">
+             <label for="">Quality:</label>
+             <form class="rating1">
+              <label>
+                <input type="radio" name="stars" value="1" />
+                <span class="icon">★</span>
+              </label>
+              <label>
+                <input type="radio" name="stars" value="2" />
+                <span class="icon">★</span>
+                <span class="icon">★</span>
+              </label>
+              <label>
+                <input type="radio" name="stars" value="3" />
+                <span class="icon">★</span>
+                <span class="icon">★</span>
+                <span class="icon">★</span>   
+              </label>
+              <label>
+                <input type="radio" name="stars" value="4" />
+                <span class="icon">★</span>
+                <span class="icon">★</span>
+                <span class="icon">★</span>
+                <span class="icon">★</span>
+              </label>
+              <label>
+                <input type="radio" name="stars" value="5" />
+                <span class="icon">★</span>
+                <span class="icon">★</span>
+                <span class="icon">★</span>
+                <span class="icon">★</span>
+                <span class="icon">★</span>
+              </label>
+            </form></div>
+            <label for="">Nickname<a href="#">*</a></label><br>
+            <input type="text" placeholder="Your Nickname"><br>
+            <label for="">Summary<a href="#">*</a></label><br>
+            <input type="text" placeholder="Summary"><br>
+            <label for="">Review<a href="#">*</a></label><br>
+            <textarea rows="5" cols="100" placeholder="Write your message here"></textarea></br>
+            </div>
+            
+              
+              <div class="my-file">
+            <label for="myfile">Add your Photo<a href="#">*</a> </label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+            </div>
+            <div class="submit-re">
+              <button>Submit Review</button>
+            </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+
+  <div class="box-4 my-3">
+    <div class="topic">
+      <ul class="d-flex">
+        <ol class="top"><a href="#">Recommended Products</a></ol>
+        
+        <ol class="shop" style="margin-left: 55%;"><a href="#">Shop more<i class="bi bi-chevron-right"></i>
+          </a></ol>
+      </ul>
+    </div>
+
+    <div class="parent">
+      <div id="leftarrow" onclick="moveleft()">
+        <button><i class="bi bi-chevron-left"></i>
+        </button>
+      </div>
+      <div class="child" id="c1">
+        <div class="container d-flex">
+          <img src="img/img1.jpg">
+          <ul class="box5">
+            <ol><i class="bi bi-heart-fill"></i></ol>
+            <ol><i class="bi bi-cart"></i></ol>
+            <ol><i class="bi bi-zoom-in"></i></ol>
+          </ul>
+        </div>
+        <div class="detail">
+          <p><a href="#">HP Pavilion Power 15 2020 i5 10300H / GTX 1650 / 8GB RAM / 256GB SSD /
+              15.6" FHD display
+
+            </a></p>
+          <div>
+            <ul class="d-flex">
+              <ol class="star act"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+            </ul>
+          </div>
+          <div class="price"><a href="#">NRP 108,000.00</a></div>
+          <div class="oldprice"><a href="#">NRP 115,000.00</a></div>
+
+        </div>
+
+      </div>
+      <div class="child" id="c2">
+        <div class="container d-flex">
+          <img src="img/img2.jpg">
+          <ul class="box5">
+            <ol><i class="bi bi-heart-fill"></i></ol>
+            <ol><i class="bi bi-cart"></i></ol>
+            <ol><i class="bi bi-zoom-in"></i></ol>
+          </ul>
+        </div>
+        <div class="detail">
+          <p><a href="#">
+              Razer Blade 15 2020 i7 10th Gen / 16GB RAM / 256GB SSD / GTX 1660Ti / 15.6" 120Hz FHD
+              Display</a></p>
+          <div>
+            <ul class="d-flex">
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+            </ul>
+          </div>
+          <div class="price"><a href="#">NRP 199,000.00</a></div>
+          <div class="oldprice"><a href="#">NRP 230,000.00</a></div>
+        </div>
+      </div>
+      <div class="child" id="c3">
+        <div class="container d-flex">
+          <img src="img/img3.jpg">
+          <ul class="box5">
+            <ol><i class="bi bi-heart-fill"></i></ol>
+            <ol><i class="bi bi-cart"></i></ol>
+            <ol><i class="bi bi-zoom-in"></i></ol>
+          </ul>
+        </div>
+        <div class="detail">
+          <p><a href="#">
+              Acer Nitro 5 2020 i5 10TH GEN / RTX 2060/ 8GB RAM/ 1TB HDD/ 15.6" FHD/ RGB Keyboard
+            </a></p>
+          <div>
+            <ul class="d-flex">
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+            </ul>
+          </div>
+          <div class="price"><a href="#">NRP 139,000.00</a></div>
+          <div class="oldprice"><a href="#">NRP 148,000.00</a></div>
+        </div>
+      </div>
+      <div class="child" id="c4">
+        <div class="container d-flex">
+          <img src="img/img4.jpg">
+          <ul class="box5">
+            <ol><i class="bi bi-heart-fill"></i></ol>
+            <ol><i class="bi bi-cart"></i></ol>
+            <ol><i class="bi bi-zoom-in"></i></ol>
+          </ul>
+        </div>
+        <div class="detail">
+          <p><a href="#">
+              Lenovo ThinkPad L13 Yoga i5 10th Gen / 8GB RAM / 256GB SSD / 13.3" FHD X 360
+              Touchscreen
+              / Thinkpad Pro Pen </a></p>
+          <div>
+            <ul class="d-flex">
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+            </ul>
+          </div>
+          <div class="price"><a href="#">NRP 125,000.00</a></div>
+          <div class="oldprice"><a href="#">NRP 135,000.00</a></div>
+        </div>
+      </div>
+      <div class="child" id="c5">
+        <div class="container d-flex">
+          <img src="img/img4.jpg">
+          <ul class="box5">
+            <ol><i class="bi bi-heart-fill"></i></ol>
+            <ol><i class="bi bi-cart"></i></ol>
+            <ol><i class="bi bi-zoom-in"></i></ol>
+          </ul>
+        </div>
+        <div class="detail">
+          <p><a href="#">
+              Lenovo ThinkPad L13 Yoga i5 10th Gen / 8GB RAM / 256GB SSD / 13.3" FHD X 360
+              Touchscreen
+              / Thinkpad Pro Pen </a></p>
+          <div>
+            <ul class="d-flex">
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+            </ul>
+          </div>
+          <div class="price"><a href="#">NRP 125,000.00</a></div>
+          <div class="oldprice"><a href="#">NRP 135,000.00</a></div>
+        </div>
+      </div>
+      <div class="child" id="c6">
+        <div class="container d-flex">
+          <img src="img/img6.jpg">
+          <ul class="box5">
+            <ol><i class="bi bi-heart-fill"></i></ol>
+            <ol><i class="bi bi-cart"></i></ol>
+            <ol><i class="bi bi-zoom-in"></i></ol>
+          </ul>
+        </div>
+        <div class="detail">
+          <p><a href="#">
+              MSI Modern 15 A10M i5 10th Gen / 8GB RAM / 512GB SSD / 15.6" FHD display
+            </a></p>
+          <div>
+            <ul class="d-flex">
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+            </ul>
+          </div>
+          <div class="price"><a href="#">NRP 100,000.00</a></div>
+          <div class="oldprice"><a href="#">NRP 110,000.00</a></div>
+
+        </div>
+      </div>
+      <div class="child" id="c7">
+        <div class="container d-flex">
+          <img src="img/img7.jpg">
+          <ul class="box5">
+            <ol><i class="bi bi-heart-fill"></i></ol>
+            <ol><i class="bi bi-cart"></i></ol>
+            <ol><i class="bi bi-zoom-in"></i></ol>
+          </ul>
+        </div>
+        <div class="detail">
+          <p><a href="#">
+              Lenovo ThinkPad X13 AMD Ryzen 5 Pro 4650U / 16GB RAM / 512GB SSD / 13.3" FHD Display
+            </a></p>
+          <div>
+            <ul class="d-flex">
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+            </ul>
+          </div>
+          <div class="price"><a href="#">NRP 135,000.00</a></div>
+          <div class="oldprice"><a href="#">NRP 143,000.00</a></div>
+
+
+        </div>
+      </div>
+      <div class="child" id="c8">
+        <div class="container d-flex">
+          <img src="img/img8.jpg">
+          <ul class="box5">
+            <ol><i class="bi bi-heart-fill"></i></ol>
+            <ol><i class="bi bi-cart"></i></ol>
+            <ol><i class="bi bi-zoom-in"></i></ol>
+          </ul>
+        </div>
+        <div class="detail">
+          <p><a href="#">
+              Asus TUF Dash F15 FX516PM i7 11th Gen / RTX 3060 / 16GB RAM / 512GB SSD / 15.6" FHD
+              144Hz display </a></p>
+          <div>
+            <ul class="d-flex">
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+            </ul>
+          </div>
+          <div class="price"><a href="#">NRP 205,000.00</a></div>
+          <div class="oldprice"><a href="#">NRP 215,000.00</a></div>
+
+
+        </div>
+      </div>
+      <div class="child" id="c9">
+        <div class="container d-flex">
+          <img src="img/img9.jpg">
+          <ul class="box5">
+            <ol><i class="bi bi-heart-fill"></i></ol>
+            <ol><i class="bi bi-cart"></i></ol>
+            <ol><i class="bi bi-zoom-in"></i></ol>
+          </ul>
+        </div>
+        <div class="detail">
+          <p><a href="#">
+              Asus TUF Dash F15 FX516PM i5 11Th Gen / RTX 3060 / 8GB RAM / 512GB SSD / 15.6" FHD
+              144Hz display </a></p>
+          <div>
+            <ul class="d-flex">
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+            </ul>
+          </div>
+          <div class="price"><a href="#">NRP 172,000.00</a></div>
+          <div class="oldprice"><a href="#">NRP 183,000.00</a></div>
+
+        </div>
+      </div>
+      <div class="child" id="c10">
+        <div class="container d-flex">
+          <img src="img/img10.jpg">
+          <ul class="box5">
+            <ol><i class="bi bi-heart-fill"></i></ol>
+            <ol><i class="bi bi-cart"></i></ol>
+            <ol><i class="bi bi-zoom-in"></i></ol>
+          </ul>
+        </div>
+        <div class="detail">
+          <p><a href="#">
+              Lenovo ThinkPad E14 i5 11th Gen / 8GB RAM / 512GB SSD / 14" FHD display / Backlight
+              Keyboard </a></p>
+          <div>
+            <ul class="d-flex">
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+              <ol class="star"><a href="#"><i class="bi bi-star-fill"></i></a></ol>
+            </ul>
+          </div>
+          <div class="price"><a href="#">NRP 120,000.00</a></div>
+          <div class="oldprice"><a href="#">NRP 133,000.00</a></div>
+
+        </div>
+      </div>
+      <div id="rightarrow" onclick="moveright()">
+        <button><i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+</div>
+<div class="discription">
+  <div class="letter">
+    <div class="left">
+      <img src="img/itti-logo.png">
+    </div>
+    <div class="mid">
+
+      <div class="newletter">
+        <div class="title">
+          <h4><a href="#">Our Newsletter</a></h4>
+        </div>
+
+        <div class="subs">
+          <h6><a href="#">Subscribe to our newsletter to get our latest offer! </a></h6>
+        </div>
+        <ul class="container sea d-flex">
+          <ol class="box1 ">
+            <button><a href="#"><strong><i class="bi bi-envelope"></i></strong></a>
+            </button>
+            <input type="search" placeholder="Enter your E-mail Address">
+          </ol>
+          <ol class="search"><button class="btn"><a href="#">Subscribe</a></button></ol>
+        </ul>
+      </div>
+    </div>
+    <div class="right1">
+      <div class="app">
+        <div class="name">
+          <h4><a href="#">ITTI APP</a></h4>
+        </div>
+        <div class="come">
+          <h6><a href="#">Coming Soon on</a></h6>
+        </div>
+        <ul class="gapp d-flex">
+          <ol class="play"><button class="store"><a href="#"><i class=" fab fa-google-play "></i>Google
+                Play</a></button></ol>
+          <ol class="play"><button class="store"><a href="#"> App Store</a></button></ol>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="about">
+  <ul class="category">
+    <ol class="cat1">
+      <h4><a href="#">Categories</a></h4>
+    </ol>
+    <ol class="cat"><a href="#">Gaming Laptop</a></ol>
+    <ol class="cat"><a href="#">Monitors</a></ol>
+    <ol class="cat"><a href="#">Desktop Computer</a></ol>
+    <ol class="cat"><a href="#">Accessories</a></ol>
+  </ul>
+  <ul class="category">
+    <ol class="cat1">
+      <h4><a href="#">About</a></h4>
+    </ol>
+    <ol class="cat"><a href="#">About us</a></ol>
+    <ol class="cat"><a href="#">Terms & Condition</a></ol>
+    <ol class="cat"><a href="#">Warranty</a></ol>
+    <ol class="cat"><a href="#">Blogs</a></ol>
+  </ul>
+  <ul class="category">
+    <ol class="cat1">
+      <h4><a href="#">Customer Service</a></h4>
+    </ol>
+    <ol class="cat"><a href="#">Shipping & Return Policy</a></ol>
+    <ol class="cat"><a href="#">My Account</a></ol>
+    <ol class="cat"><a href="#">Contact Us</a></ol>
+  </ul>
+  <ul class="category">
+    <ol class="cat1">
+      <h4><a href="#">Support</a></h4>
+    </ol>
+    <ol class="cat"><a href="#"><i class="bi bi-envelope"></i>
+        sales@itti.com.np</a></ol>
+    <ol class="cat"><a href="#"><i class="bi bi-envelope"></i>
+        +977 9861231248</a></ol>
+    <ol class="cat"><a href="#"><i class="bi bi-geo-alt"></i>
+        Trinity House, Putalisadak, Kathmandu</a></ol>
+  </ul>
+</div>
+<div class="pay">
+  <div class="payment1">
+    <ul class="category">
+      <ol class="cat1"><a href="#">Follow us on</a></ol>
+      <ol class="del">
+        <ul class="logo-1 d-flex">
+          <ol class="log"><a href="#" class="fa fa-pinterest"></a>
+          </ol>
+          <ol class="log"><a href="#"><i class="bi bi-facebook"></i></a>
+          </ol>
+          <ol class="log"><a href="#"><i class="bi bi-youtube"></i></a>
+          </ol>
+          <ol class="log"><a href="#"><i class="bi bi-instagram"></i></a>
+          </ol>
+          <ol class="log"><a href="#"><i class="bi bi-twitter"></i></a>
+          </ol>
+
+        </ul>
+      </ol>
+    </ul>
+    <ul class="category">
+      <ol class="cat1"><a href="#">Payment & Delivery Partners</a></ol>
+      <ol class="del">
+        <ul class="logo-1 d-flex">
+          <ol class="log"><img src="img/pay1.png" class="img-fluid"></ol>
+          <ol class="log"><img src="img/pay2.png" class="img-fluid"></ol>
+          <ol class="log"><img src="img/pay3.png" class="img-fluid"></ol>
+          <ol class="log"><img src="img/pay4.png" class="img-fluid"></ol>
+          <ol class="log"><img src="img/pay5.png" class="img-fluid"> </ol>
+
+        </ul>
+      </ol>
+    </ul>
+
+  </div>
+  <div class="payment">
+    <div class="para">
+      <p><a href="#">Buy a laptop in Nepal can be a tough job. Due to the small market, computer stores always
+          bring just a few models of laptops and all with limited stock. So chances of finding a laptop that
+          fits your requirements are feeble. And if you further look at the laptop price in Nepal, you will be
+          shocked to see it being exorbitantly high. Limited availability and the high price of the laptops
+          has definitely created an inconvenience amongst the customers. With a view to solving this problem,
+          ITTI Pvt Ltd was established.</a></p>
+    </div>
+    <div class="para">
+      <p><a href="#">In our 15 years of illustrious journey, ITTI always strived to provide the best of our
+          services. With a wide variety of products and a reasonable price, we definitely have made big efforts
+          to provide the best laptops to our customers at the best price. So acknowledging our untiring efforts
+          to keep the customers happy, ITTI Pvt Ltd is often lauded as the best place to buy laptops in
+          Nepal.</a></p>
+
+    </div>
+    <div class="para">
+      <p><a href="#">However, our product lineup is not just limited to ordinary laptops. To encompass all
+          sorts of users, ITTI Pvt Ltd has filled its shelf with a handful of gaming laptops and thin and light
+          ultrabooks on the top of the regular or general-purpose laptops. In addition to that, you can find
+          plentiful of desktops, regular and gaming monitors, televisions, and other computer accessories at
+          our store.</a></p>
+    </div>
+    <div class="para">
+      <p><a href="#">Although our store is located in Putalisadak, Kathmandu, our service is not just limited
+          to valley dwellers. To ensure convenience for the people outside the Kathmandu valley, we have a free
+          shipping service. And to further improve your online purchasing experience, we are also offering
+          7-days no questions asked return policy. So we've got you all covered.</a></p>
+    </div>
+  </div>
+  <div class="para mx-4">
+    <ul mx-4>
+      <ol>
+        <a href="#">Gaming Laptop</a>"|"
+        <a href="#">Desktop Computers</a>"|"
+        <a href="#">Smart TV</a>"|"
+        <a href="#"> Mobile Phones</a>"|"
+        <a href="#">Accessories</a>"|"
+        <a href="#">Ultra Book</a>"|"
+        <a href="#">Notebook</a>"|"
+        <a href="#">2 IN 1 Laptops</a>"|"
+        <a href="#">Upcoming Laptops</a>"|"
+        <a href="#">Monitors</a>"|"
+        <a href="#">Acer</a>"|"
+        <a href="#">Alienware</a>"|"
+        <a href="#">Apple</a>"|"
+        <a href="#">Asus</a>"|"
+        <a href="#">Dell</a>"|"
+        <a href="#">HP</a>"|"
+        <a href="#">Lenovo</a>"|"
+        <a href="#">Microsoft</a>"|"
+        <a href="#">MSI</a>"|"
+        <a href="#">Razerblade</a>
+        </li>
+
+    </ul>
+  </div>
+</div>
+<footer>
+  
+  <div class="foots">
+    <div class="foot">
+      <a href="#"> &copy; 2021 ITTI. All right reserved.</a>
+</div>
+  <div class="foot1">
+    <ul class="d-flex">
+      <ol><a href="#">Privacy Policy</a></ol>
+      <ol><a href="#">Terms of use</a></ol>
+      <ol><a href="#">Site map</a></ol>
+    </ul>
+  </div>
+  </div>
+</footer>
+
+
+  <script type="text/javascript">
+   var left = 1;
+    var right = 4;
+    function show() {
+     
+      for (i = 1; i <= 4; i++) {
+
+        document.getElementById("c" + i).style.display = "inline-block";
+       // document.getElementById("a" + i).style.display = "inline-block";
+       //document.getElementById("b" + i).style.display = "inline-block";
+
+
+      }
+      
+
+    }
+    function moveright() {
+      if (left <= 6 && right >= 4) {
+
+        document.getElementById("c" + left).style.display = "none";
+        left = left + 1;
+        right = right + 1;
+        for (i = left; i <= right; i++) {
+          document.getElementById("c" + i).style.display = "inline-block";
+
+        }
+      } else {
+        return;
+      }
+
+    }
+    function moveleft() {
+      if (left <= 7 && right > 4) {
+
+        document.getElementById("c" + right).style.display = "none";
+        left = left - 1;
+        right = right - 1;
+        for (i = left; i <= right; i++) {
+          document.getElementById("c" + i).style.display = "inline-block";
+
+        }
+      } else {
+        return;
+      }
+    }
+    var slider_content = document.getElementById('boxx');
+    var image = ['img/dell1', 'img/dell2', 'img/dell3'];
+    var i = image.length;
+    function nextimage() {
+      if (i < image.length) {
+        i = i + 1;
+      }
+      else {
+        i = 1;
+      }
+      slider_content.innerHTML = "<img src=" + image[i - 1] + ".jpg>";
+
+    }
+    function prewimage() {
+      if (i < image.lenght + 1 && i > 1) {
+        i = i - 1;
+      }
+      else {
+        i = image.length;
+      }
+      slider_content.innerHTML = "<img src=" + image[i - 1] + ".jpg>";
+    }
+  
+    $(':radio').change(function() {
+  console.log('New star rating: ' + this.value);
+});
+  
+  </script>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

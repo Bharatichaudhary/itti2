@@ -1,0 +1,28 @@
+/*----------page15-CSS--------------*/
+.pay-method {
+    width: 95%;
+    padding: 1rem 0.5rem;
+    margin: auto;
+}
+.shipping-summary {
+    width: 95%;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+.long {
+    background: #ccc;
+    margin: 4rem 17%;
+    border-radius: 0.4rem;
+}
+.heading1 {
+    text-align: center;
+    margin: 0 7%;
+    margin-left: 7%;
+}
+.circle1 a {
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #ccc;
+    margin-left: 30%;
+    background: #fff;
+}

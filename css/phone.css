@@ -1,0 +1,110 @@
+/*.topic ol{
+    margin: 0rem 2%;
+}
+.topic .top a{
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.foot1{
+    float: right;
+    margin-left: 40%;
+  
+  }
+
+.right2{
+    float: right;
+    margin-left: 70%;
+}
+.box1 {
+    margin: 0rem 0rem;
+    margin-left: 2rem;
+}*/
+
+.box5 {
+    display: inline;
+    padding: 0.8rem 1rem;
+    background-color: rgba(161, 154, 154, 0.3);
+    margin: 1rem 0px;
+    padding-bottom: 0px;
+    margin-left: -3rem;
+    padding-left: 1rem;
+    border-radius: 2rem;
+}
+
+.box-1 {
+    display: block;
+}
+.right2 {
+    float: right;
+    margin-left: 40%;
+}
+.topic ol img {
+    margin: 0rem 3rem;
+}
+.topic .shop {
+    float: right;
+    margin-left: 50%;
+}
+.foot1 {
+    float: right;
+    margin-left: 34%;
+    background: #000;
+}
+.letter img {
+    margin: 0rem;
+    margin-top: 4rem;
+}
+.newletter {
+    margin: 2rem;
+    padding: 0 0rem;
+    padding-bottom: 2rem;
+    height: 11rem;
+    border: 4px solid #BE202E;
+    border-radius: 0.5rem;
+    margin-left: 0rem;
+}
+.category {
+    margin: 2rem 3rem;
+}
+.leftarrow, .rightarrow {
+    margin-left: 0px;
+    display: inline-block;
+}
+.box-4 button {
+    border: none;
+    height: 4rem;
+    margin: 0 0rem;
+}
+
+
+/*-----------page2-CSS------------*/
+.profile {
+    display: block;
+    margin-right: 0px;
+    box-sizing: content-box;
+}
+.information {
+    width: 97%;
+    float: left;
+}
+.specification {
+    margin-top: 39rem;
+}
+.photo {
+    width: 55%;
+    padding-top: 0rem;
+    margin: 0 5rem;
+}
+
+/*-----------page3-CSS------------*/
+
+.customer {
+    width: 100%;
+}
+.submit-re {
+    margin: 0 9rem;
+    margin-bottom: -2.8rem;
+    text-align: center;
+    background: #fff;
+}

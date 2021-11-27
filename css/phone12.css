@@ -1,0 +1,108 @@
+.ordered {
+    display: block;
+}
+.shipping-summary {
+    width: 60%;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+.ordered .my-order {
+    padding: 0 1rem;
+    margin: auto;
+    width: 90%;
+}
+
+
+
+
+
+.image1{
+    display: block;
+}
+.image1 h6{
+    width:94%;
+}
+.demo-img img {
+    width: 43%;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    margin: auto;
+}
+.bank-transfer .up {
+    width: 35%;
+}
+.payment-methods {
+    padding: 0rem;
+}
+
+
+
+
+
+
+      /*-----page14-CSS-------*/
+.image2{
+    display: block;
+}
+.del-date {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.shipping-address .address {
+    padding: 0 0rem;
+}
+.addr h4 {
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: #fff;
+    text-align: center;
+    padding: 0.8rem;
+    margin-left: 11%;
+}
+
+
+
+
+      /*-----page5-CSS-------*/
+
+
+.login-box {
+    margin: 5rem auto;
+    margin-top: 2rem;
+    width: 95%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border: 4px solid #BE202E;
+    border-radius: 0.4rem;
+    height: 47rem;
+}
+.login {
+    width: 78%;
+    margin: 0px 1rem;
+    margin-top: -7rem;
+    padding: 0px 2rem;
+    background: #fff;
+}
+
+
+
+
+
+
+      /*-----page5-CSS-------*/
+    
+    .summary {
+        width: 97%;
+        border: 4px solid #BE202E;
+        margin-left: 2rem;
+        border-radius: 0.2rem;
+        padding: 0 1rem;
+        margin-top: 5rem;
+    }
+    .item {
+        width: 100%;
+        margin-left: 0.5rem;
+        padding: 1rem;
+    }

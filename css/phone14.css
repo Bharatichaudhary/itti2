@@ -1,0 +1,63 @@
+.order-image p {
+    margin-top: 0rem;
+}
+.ordered .my-order {
+    padding: 0 1rem;
+    margin: auto;
+    width: 98%;
+}
+
+
+
+
+
+
+
+
+
+.payment-methods {
+    display: block;
+}
+.pay-method {
+    width: 60%;
+    padding: 1rem 0.5rem;
+    margin: auto;
+}
+
+
+
+
+
+
+
+           /*-----------page7-CSS---------------*/
+           .my-account {
+            width: 90%;
+            margin: 0 5%;
+        }
+        .my-account ol {
+            margin: 0.4rem 0.2rem;
+            padding: 0.2rem 0.5rem;
+            /* padding-left: 1rem; */
+            font-size: 1rem;
+            border-radius: 0.4rem;
+        }
+
+.account-box {
+    padding: 1rem 0rem;
+}
+
+
+
+
+
+
+
+
+
+           /*-----------page10-CSS---------------*/
+
+
+.account-box .my-order {
+    width: 100%;
+}
